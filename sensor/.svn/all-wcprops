@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/xseal/!svn/ver/320/trunk/dev/ev_sensor/sensor_server/sensor
+END
+sensor.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/xseal/!svn/ver/320/trunk/dev/ev_sensor/sensor_server/sensor/sensor.py
+END
+sensorreader.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xseal/!svn/ver/316/trunk/dev/ev_sensor/sensor_server/sensor/sensorreader.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xseal/!svn/ver/316/trunk/dev/ev_sensor/sensor_server/sensor/__init__.py
+END

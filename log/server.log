@@ -1,0 +1,82 @@
+2014-02-20 18:52:04,789 INFO main[L.45] <module>(): System start.
+2014-02-20 18:52:04,827 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 18:53:26,745 INFO main[L.45] <module>(): System start.
+2014-02-20 18:53:26,767 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 18:53:26,769 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 18:53:26,769 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:00:44,034 INFO main[L.45] <module>(): System start.
+2014-02-20 19:00:44,081 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:00:44,083 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:00:44,164 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:07:29,101 INFO main[L.45] <module>(): System start.
+2014-02-20 19:07:29,148 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:07:29,151 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:07:29,151 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:08:07,701 INFO main[L.45] <module>(): System start.
+2014-02-20 19:08:07,703 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:08:07,709 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:08:07,709 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:08:49,069 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:08:49] "GET / HTTP/1.1" 500 161 0.037334
+2014-02-20 19:08:50,039 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:08:50] "GET /favicon.ico HTTP/1.1" 500 161 0.000821
+2014-02-20 19:09:02,724 INFO main[L.45] <module>(): System start.
+2014-02-20 19:09:02,728 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:09:02,757 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:09:02,757 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:09:17,808 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:09:17] "GET /index.html HTTP/1.1" 500 161 0.062650
+2014-02-20 19:09:17,986 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:09:17] "GET /favicon.ico HTTP/1.1" 500 161 0.000807
+2014-02-20 19:09:29,744 INFO main[L.45] <module>(): System start.
+2014-02-20 19:09:29,747 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:09:29,752 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:09:29,752 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:10:02,402 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:10:02] "GET /viewer_sample/html/index.html HTTP/1.1" 500 161 0.105936
+2014-02-20 19:10:02,698 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:10:02] "GET /favicon.ico HTTP/1.1" 500 161 0.001113
+2014-02-20 19:10:25,214 INFO main[L.45] <module>(): System start.
+2014-02-20 19:10:25,216 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:10:25,223 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:10:25,223 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:12:31,562 INFO main[L.45] <module>(): System start.
+2014-02-20 19:12:31,588 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:12:31,590 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:12:31,590 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:13:29,111 INFO main[L.45] <module>(): System start.
+2014-02-20 19:13:29,137 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:13:29,139 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:13:29,176 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:13:31,669 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:13:31] "GET /index.html HTTP/1.1" 500 161 0.120719
+2014-02-20 19:13:32,049 INFO handler[L.237] log_request(): 127.0.0.1 - - [2014-02-20 19:13:32] "GET /favicon.ico HTTP/1.1" 500 161 0.000775
+2014-02-20 19:14:41,834 INFO main[L.45] <module>(): System start.
+2014-02-20 19:14:41,860 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:14:41,862 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:14:41,863 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:17:33,955 INFO main[L.45] <module>(): System start.
+2014-02-20 19:17:33,977 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:17:33,979 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:17:34,009 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:45:47,405 INFO main[L.45] <module>(): System start.
+2014-02-20 19:45:47,476 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:45:47,479 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:45:47,479 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:52:47,565 INFO main[L.45] <module>(): System start.
+2014-02-20 19:52:47,613 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:52:47,615 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:52:47,615 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 19:59:45,527 INFO main[L.45] <module>(): System start.
+2014-02-20 19:59:45,599 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 19:59:45,601 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 19:59:45,601 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 20:01:39,476 INFO main[L.45] <module>(): System start.
+2014-02-20 20:01:39,515 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 20:01:39,517 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 20:01:39,517 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 20:12:09,538 INFO main[L.45] <module>(): System start.
+2014-02-20 20:12:09,631 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 20:12:09,633 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 20:12:09,633 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 20:12:49,986 INFO main[L.45] <module>(): System start.
+2014-02-20 20:12:50,025 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 20:12:50,027 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 20:12:50,027 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).
+2014-02-20 20:39:35,616 INFO main[L.45] <module>(): System start.
+2014-02-20 20:39:35,687 INFO main[L.39] wsProc(): WebSocket server start (127.0.0.1:8080, pushInterval = 0.500000 sec, dataLabel = data).
+2014-02-20 20:39:35,689 INFO sensorreader[L.21] __init__(): Serial port initialized (snsPort = /dev/tty.SLAB_USBtoUART, baudRate = 115200, snsTimeout = 0.100000).
+2014-02-20 20:39:35,690 INFO sensorreader[L.28] start(): SensorReader start (readSize = 1000, readInterval = 0.100000, snsWeight = 0.146000, accDigit = 3).

@@ -1,0 +1,2 @@
+Requires python(2.7.x) and websocket-client(>=0.12.0).
+easy_install websocket-client

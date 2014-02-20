@@ -1,29 +1,34 @@
-var http = require('http');
-var WebSocketServer = require('websocket').server;
-var WebSocketClient = require('websocket').client;
-var fs = require('fs');
+var WebSocket = require('ws');
 
-//clientのnew
-var client = new WebSocketClient();
+var HOST = '127.0.0.1';
+var PORT = '8080';
 
-//connect
-client.connect('ws://localhost:8080/', 'echo-protocol');
+var ws = new WebSocket('ws://' + HOST + ':' + PORT + '/');
 
-// connection failed
-client.on('connectFailed', function(error){
-	console.log("connection error: " + error.toString());
+ws.on('open', function(){   
+	console.log("Connection Opened!");
     });
-//connected
-client.on('connect', function(connect){
-	console.log("WebSocekt client Connected!!");
-	connect.on('error', function(error){// connect error
-		console.log("Connection Error " + error.toString());
-	    });
-	connect.on('close', function(){// closed
-		console.log("WebSocket Connection Closed");
-	    });
 
-	connect.on('message', function(data){// receive a message
-		console.log("Received: " + data);
-	    });
+ws.on('message', function(data){
+	var buf = JSON.parse(data);
+	if(buf.data.length !== 0){
+	    for(var i = 0; i < buf.data.length; i++){
+		console.log("******************");
+		console.log("dateTime: " + buf.data[i][0]);
+		console.log("ID: " + buf.data[i][1]);
+		console.log("temp: " + buf.data[i][2]);
+		console.log("lks: " + buf.data[i][3]);
+		console.log("but: " + buf.data[i][4]);
+		console.log("ax: " + buf.data[i][5]);
+		console.log("ay: " + buf.data[i][6]);
+		console.log("az: " + buf.data[i][7]);
+		console.log("******************");
+	    }
+	    
+	}
     });
+
+ws.on('close', function(){
+	       console.log("Connection closed!");
+	   });
+  

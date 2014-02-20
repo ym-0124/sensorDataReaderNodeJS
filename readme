@@ -1,0 +1,7 @@
+Requires python(2.7.x), libevent(>=2.0.21), gevent(>=1.0), gevent-websocket(>=0.9.2) and greenlet(>=0.4.2).
+brew install libevent
+easy_install gevent
+easy_install gevent-websocket
+easy_install greenlet
+
+Modify conf/server.conf and execute start.sh.
